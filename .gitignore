@@ -1,6 +1,7 @@
 
 # hugo cache
 resources
+.hugo_build.lock
 
 # vs 
 .vs

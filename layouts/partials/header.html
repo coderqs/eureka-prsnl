@@ -32,6 +32,7 @@
         </div>
 
         <div class="flex">
+            {{ with .Site.Params.enableSearch }}
             <div class="search-container relative pt-4 md:pt-0">
                 <div class="search">
                     <form role="search" class="search-form" action="/search.html" method="get">
@@ -44,6 +45,7 @@
                     </form>
                 </div>
             </div>
+            {{ end }}
             <div class="relative pt-4 ps-4 md:pt-0">
                 <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
                     {{- if eq .Site.Params.colorScheme "dark" }}

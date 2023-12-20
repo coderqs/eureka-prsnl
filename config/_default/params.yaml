@@ -20,6 +20,8 @@ icon: images/icon.png
 publisherName: QingSong
 publisherLogo:
 
+enableSearch: false
+
 highlight:
   handler: highlightjs
 

@@ -1,0 +1,31 @@
+{{ partial "components/list-article" . }}
+
+<div class="bg-secondary-bg rounded px-6">
+<section id="archive">
+  {{ range (.Site.RegularPages.GroupByDate "2006") }}
+    <div class="group">
+        <h3>{{ .Key }}</h3>
+        {{ range (where .Pages "Type" "posts") }}
+          <div class="value">
+            <div class="date">
+              <time datetime="{{ .PublishDate }}">{{ i18n "publishDateShort" . }}</time>
+            </div>
+            <ul class="title">
+              {{ .PublishDate.Format "01-02" }}
+              <a href="{{ .Permalink }}">
+                  {{ .Title }}
+              </a>
+              {{ with .Params.tags }}
+                  <div class="tags">
+                      {{ range . }}
+                          <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+                      {{ end }}
+                  </div>
+              {{ end}}
+            </ul>
+          </div>
+        {{ end }}  
+      {{ end }}
+    </div>
+</section>
+</div>

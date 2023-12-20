@@ -6,7 +6,7 @@ theme: hugo-eureka
 
 timezone: Asia/Shanghai
 
-paginate: 3
+paginate: 10
 copyright: 
 enableEmoji: true
 enableGitInfo: true

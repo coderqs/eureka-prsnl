@@ -1,7 +1,7 @@
 readMore:
   other: 阅读更多
 readingTime:
-  other: '{{ .Count }}分钟'
+  other: '阅读时长：{{ .Count }}分钟'
 toc:
   other: 目录
 seriesOfPosts:
@@ -29,4 +29,4 @@ searchDefault:
 publishDate:
   other: '发布于：'
 lastmodDate:
-  other: '最后更新于:'
+  other: '最后更新于：'

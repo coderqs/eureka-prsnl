@@ -26,6 +26,7 @@ auto:
   other: 自动
 searchDefault:
   other: 搜索 ...
-
+publishDate:
+  other: '发布于：'
 lastmodDate:
   other: 最后更新于

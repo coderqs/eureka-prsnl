@@ -1,0 +1,7 @@
+<div class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center">
+    <div class="me-6 my-2">
+      <span>
+        {{ i18n "lastmodDate" . }}: {{ .Lastmod.Format (.Site.Params.dateFormat | default "2006-01-02") }}
+      </span>
+    </div>
+  </div>

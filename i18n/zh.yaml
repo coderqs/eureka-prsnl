@@ -1,7 +1,7 @@
 readMore:
   other: 阅读更多
 readingTime:
-  other: '{{ .Count }}分钟阅读时长'
+  other: '{{ .Count }}分钟'
 toc:
   other: 目录
 seriesOfPosts:
@@ -26,3 +26,6 @@ auto:
   other: 自动
 searchDefault:
   other: 搜索 ...
+
+lastmodDate:
+  other: 最后更新于

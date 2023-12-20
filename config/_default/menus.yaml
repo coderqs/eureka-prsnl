@@ -2,9 +2,9 @@ main:
   - name: 文章
     url: /posts/
     weight: 1
-  - name: 笔记
-    url: /notes/
-    weight: 2
+#  - name: 笔记
+#    url: /notes/
+#    weight: 2
   - name: 文档
     url: /docs/
     weight: 3

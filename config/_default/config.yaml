@@ -36,7 +36,6 @@ taxonomies:
   category: categories
   tag: tags
   series: series
-  author: authors
 
 build:
   useResourceCacheWhen: always
